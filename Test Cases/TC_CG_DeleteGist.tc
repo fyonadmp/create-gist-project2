@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_CG_DeleteGist</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>066cca36-f016-413f-bb79-ed671b0f77f3</testCaseGuid>
+   <variable>
+      <defaultValue>'Sign in to GitHub'</defaultValue>
+      <description></description>
+      <id>18abf064-1676-49c4-bb40-225ea01d82d4</id>
+      <masked>false</masked>
+      <name>element_text</name>
+   </variable>
+   <variable>
+      <defaultValue>'fyonapanjaitan@gmail.com'</defaultValue>
+      <description></description>
+      <id>5b3a9c33-fca8-4f97-85a2-e73186d053ab</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'Bakmandi23'</defaultValue>
+      <description></description>
+      <id>f4e1e05a-bf07-4ce2-8250-8b7dd729ba2c</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>854d241c-ddf3-4ac8-a751-76d6c609fa6a</id>
+      <masked>false</masked>
+      <name>code</name>
+   </variable>
+</TestCaseEntity>

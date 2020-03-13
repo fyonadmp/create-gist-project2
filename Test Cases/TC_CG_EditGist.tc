@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_CG_EditGist</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>274d5f70-4e56-420f-b10b-854d84b99cfb</testCaseGuid>
+   <variable>
+      <defaultValue>'Sign in to GitHub'</defaultValue>
+      <description></description>
+      <id>a90c6e26-8750-429b-82f1-c7caee111e9b</id>
+      <masked>false</masked>
+      <name>element_text</name>
+   </variable>
+   <variable>
+      <defaultValue>'fyonapanjaitan@gmail.com'</defaultValue>
+      <description></description>
+      <id>9d16f7d2-6d72-4e20-a241-cf37f334489c</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'Bakmandi23'</defaultValue>
+      <description></description>
+      <id>a8e4cd9d-7ddc-4a47-9b37-f8c9bd345f97</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b92b48ba-1baa-4127-b309-bfc1ea21a676</id>
+      <masked>false</masked>
+      <name>code</name>
+   </variable>
+</TestCaseEntity>

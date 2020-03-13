@@ -1,38 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_gist_code</name>
+   <name>input_kak_ruth_jelek</name>
    <tag></tag>
-   <elementGuidId>ca12afde-610a-41c0-a0c7-da2a566c95bc</elementGuidId>
+   <elementGuidId>63646427-e43b-42df-b6f0-22ea4e282f5d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = '1`​' or . = '1`​')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//div[@id='gists']/div[2]/div/div[2]/div/div[5]/div/div/div/div/div[5]/div/pre/span</value>
+         <value>//div[@id='gists']/div[2]/div/div[2]/div/div[5]/div/div/div/div/div[5]/div/pre</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>.commit-create > .form-control</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
+      <value>pre</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>CodeMirror-lines</value>
+      <value> CodeMirror-line </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,52 +38,52 @@
       <value>presentation</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>1`​</value>
+      <value>aaaaa`</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;gists&quot;)/div[@class=&quot;js-gist-file&quot;]/div[@class=&quot;file js-code-editor container-preview show-code   mx-lg-3&quot;]/div[@class=&quot;commit-create  position-relative&quot;]/div[@class=&quot;CodeMirror cm-s-github-light CodeMirror-focused&quot;]/div[@class=&quot;CodeMirror-scroll&quot;]/div[@class=&quot;CodeMirror-sizer&quot;]/div[1]/div[@class=&quot;CodeMirror-lines&quot;]</value>
+      <value>id(&quot;gists&quot;)/div[@class=&quot;js-gist-file&quot;]/div[@class=&quot;file js-code-editor container-preview show-code   mx-lg-3&quot;]/div[@class=&quot;commit-create  position-relative&quot;]/div[@class=&quot;CodeMirror cm-s-github-light CodeMirror-focused&quot;]/div[@class=&quot;CodeMirror-scroll&quot;]/div[@class=&quot;CodeMirror-sizer&quot;]/div[1]/div[@class=&quot;CodeMirror-lines&quot;]/div[1]/div[@class=&quot;CodeMirror-code CodeMirror-crosshair&quot;]/div[1]/pre[@class=&quot;CodeMirror-line&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='gists']/div[2]/div/div[2]/div/div[5]/div/div/div</value>
+      <value>//div[@id='gists']/div[2]/div/div[2]/div/div[5]/div/div/div/div/div[5]/div/pre</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Instantly share code, notes, and snippets.'])[1]/following::div[23]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='See all of your gists'])[1]/following::pre[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign out'])[1]/following::div[29]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='sample gist of hello world page'])[4]/following::pre[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add file'])[1]/preceding::div[17]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add file'])[1]/preceding::pre[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[5]/div/div/div</value>
+      <value>//pre</value>
    </webElementXpaths>
 </WebElementEntity>

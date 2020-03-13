@@ -32,6 +32,7 @@ WebUI.click(findTestObject('Object Repository/Login/button_click_to_sign_in'))
 WebUI.click(findTestObject('Object Repository/Create Gist/button_dropdown_add'))
 WebUI.click(findTestObject('Object Repository/Create Gist/click_to_add_new_gist'))
 
+//WebUI.verifyElementVisible(findTestObject('Object Repository/Verify/verify_element_present', [('element_text'): 'Instantly share code, notes, and snippets.']))
 
 WebUI.waitForElementVisible(findTestObject('Object Repository/Create Gist/input_gist_description'), 2)
 WebUI.setText(findTestObject('Object Repository/Create Gist/input_gist_description'), 'sample gist of hello world page')
@@ -44,15 +45,15 @@ WebUI.delay(3)
 WebUI.setText(findTestObject('Object Repository/Create Gist/input_gist_text'), '<span> Hello World! </span>')
 
 WebUI.click(findTestObject('Object Repository/Create Gist/button_create_public_gist'))
-WebUI.delay(3)
+
 //edit existing gist
-WebUI.click(findTestObject('Object Repository/click_to_edit_gist'))
+WebUI.click(findTestObject('Object Repository/Edit Gist/button_edit_gist'))
 WebUI.delay(3)
 WebUI.setText(findTestObject('Object Repository/Create Gist/input_gist_text'), '<span> Hello World! This is Fyona </span>')
 WebUI.click(findTestObject('Object Repository/Edit Gist/button_update_public_gist'))
 
 
 //delete gist 
-WebUI.click(findTestObject('Object Repository/click_to_delete_gist'))
+WebUI.click(findTestObject('Object Repository/Delete Gist/button_delete_gist'))
 WebUI.acceptAlert()
 

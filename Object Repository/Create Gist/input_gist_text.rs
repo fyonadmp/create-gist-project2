@@ -6,16 +6,16 @@
    <elementGuidId>5c0aca1d-7ef0-4b3d-a3d5-9009300e272e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>.CodeMirror-line</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//pre[@class = 'CodeMirror-line' and @role = 'presentation']</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>/html/body/div[4]/div/main/div[2]/div/form/div/div[1]/div[2]/div/div[2]/div/div[5]/div[1]/div/div/div/div[5]/div/pre/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.CodeMirror-line</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
