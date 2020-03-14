@@ -15,9 +15,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Delete Gist/button_delete_gist'),30)
-//delete gist 
-WebUI.click(findTestObject('Object Repository/Delete Gist/button_delete_gist'))
-WebUI.delay(2)
-WebUI.acceptAlert()
+WebUI.waitForElementPresent(findTestObject('Object Repository/View Gist List/user_menu_dropdown'), 2)
+WebUI.click(findTestObject('Object Repository/View Gist List/user_menu_dropdown'))
 
+WebUI.waitForElementPresent(findTestObject('Object Repository/View Gist List/gist_list_menu'), 2)
+WebUI.click(findTestObject('Object Repository/View Gist List/gist_list_menu'))

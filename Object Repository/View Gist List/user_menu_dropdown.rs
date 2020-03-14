@@ -1,89 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_kak_ruth_jelek</name>
+   <name>user_menu_dropdown</name>
    <tag></tag>
-   <elementGuidId>63646427-e43b-42df-b6f0-22ea4e282f5d</elementGuidId>
+   <elementGuidId>071e793d-163c-4b6c-914f-166c05f7fff6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='gists']/div[2]/div/div[2]/div/div[5]/div/div/div/div/div[5]/div/pre</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value></value>
+         <value>//div[@id='user-links']/details/summary</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>pre</value>
+      <value>summary</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value> CodeMirror-line </value>
+      <value>Header-link name</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>View profile and more</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-ga-click</name>
+      <type>Main</type>
+      <value>Header, show menu, icon:avatar</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-haspopup</name>
+      <type>Main</type>
+      <value>menu</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>role</name>
       <type>Main</type>
-      <value>presentation</value>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>aaaaa`</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;gists&quot;)/div[@class=&quot;js-gist-file&quot;]/div[@class=&quot;file js-code-editor container-preview show-code   mx-lg-3&quot;]/div[@class=&quot;commit-create  position-relative&quot;]/div[@class=&quot;CodeMirror cm-s-github-light CodeMirror-focused&quot;]/div[@class=&quot;CodeMirror-scroll&quot;]/div[@class=&quot;CodeMirror-sizer&quot;]/div[1]/div[@class=&quot;CodeMirror-lines&quot;]/div[1]/div[@class=&quot;CodeMirror-code CodeMirror-crosshair&quot;]/div[1]/pre[@class=&quot;CodeMirror-line&quot;]</value>
+      <value>id(&quot;user-links&quot;)/details[@class=&quot;details-overlay details-reset&quot;]/summary[@class=&quot;Header-link name&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='gists']/div[2]/div/div[2]/div/div[5]/div/div/div/div/div[5]/div/pre</value>
+      <value>//div[@id='user-links']/details/summary</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='See all of your gists'])[1]/following::pre[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Back to GitHub'])[1]/following::summary[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='sample gist of hello world page'])[4]/following::pre[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='All gists'])[1]/following::summary[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add file'])[1]/preceding::pre[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='fyonadmp'])[1]/preceding::summary[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//pre</value>
+      <value>//summary</value>
    </webElementXpaths>
 </WebElementEntity>

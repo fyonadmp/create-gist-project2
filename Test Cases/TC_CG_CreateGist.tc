@@ -23,7 +23,7 @@
       <defaultValue>'Bakmandi23'</defaultValue>
       <description></description>
       <id>f4065c29-ba7e-46ef-b50f-60f17f72baee</id>
-      <masked>false</masked>
+      <masked>true</masked>
       <name>password</name>
    </variable>
    <variable>
@@ -32,5 +32,12 @@
       <id>e696a543-8aa2-41b7-bc7d-fefec4bc9b61</id>
       <masked>false</masked>
       <name>code</name>
+   </variable>
+   <variable>
+      <defaultValue>'2'</defaultValue>
+      <description>if the test scenario = 1, you need to login </description>
+      <id>4d77446c-8055-47b1-b729-0cf0c9448b7b</id>
+      <masked>false</masked>
+      <name>test_scenario</name>
    </variable>
 </TestCaseEntity>

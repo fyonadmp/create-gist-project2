@@ -16,10 +16,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
 
-
 WebUI.openBrowser('https://github.com/')
 WebUI.click(findTestObject('Login/button_signin'))
-
+WebUI.waitForPageLoad(3)
 WebUI.verifyElementVisible(findTestObject('Object Repository/Verify/verify_element_present', [('element_text'): 'Sign in to GitHub']))
 
 // login to GitHub
@@ -40,19 +39,11 @@ WebUI.waitForElementVisible(findTestObject('Object Repository/Create Gist/input_
 WebUI.setText(findTestObject('Object Repository/Create Gist/input_file_name'), 'hello-world.html')
 
 WebUI.waitForElementVisible(findTestObject('Object Repository/Create Gist/input_gist_text'), 2)
-WebUI.delay(3)
 WebUI.setText(findTestObject('Object Repository/Create Gist/input_gist_text'), '<span> Hello World! </span>')
 
 WebUI.click(findTestObject('Object Repository/Create Gist/button_create_public_gist'))
 WebUI.delay(3)
-//edit existing gist
-WebUI.click(findTestObject('Object Repository/click_to_edit_gist'))
-WebUI.delay(3)
-WebUI.setText(findTestObject('Object Repository/Create Gist/input_gist_text'), '<span> Hello World! This is Fyona </span>')
-WebUI.click(findTestObject('Object Repository/Edit Gist/button_update_public_gist'))
 
 
-//delete gist 
-WebUI.click(findTestObject('Object Repository/click_to_delete_gist'))
-WebUI.acceptAlert()
+
 
